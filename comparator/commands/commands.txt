@@ -1,0 +1,52 @@
+aisal@faisal-virtual-machine:~/OpenROAD-flow-scripts/flow$ history 50
+  401  cd src
+  402  ls
+  403  cd 8to1mux
+  404  ls
+  405  cd ../..
+  406  cd sky130hd
+  407  ls
+  408  cd 8to1mux
+  409  ls
+  410  cd config.mk
+  411  ls
+  412  gedit config.mk
+  413  gedit constraint.sdc 
+  414  cd ../../..
+  415  make clean_all DESIGN_CONFIG=/home/faisal/OpenROAD-flow-scripts/flow/designs/sky130hd/8to1mux/config.mk
+  416  make DESIGN_CONFIG=/designs/sky130hd/8to1mux/config.mk
+  417  make DESIGN_CONFIG=/home/faisal/OpenROAD-flow-scripts/flow/designs/sky130hd/8to1mux/config.mk
+  418  cd OpenROAD-flow-scripts/flow
+  419  ls
+  420  cd designs/sky130hd
+  421  ls
+  422  mkdir comparator
+  423  cd comparator/
+  424  cp -rf ../gcd/* .
+  425  ls
+  426  gedit config.mk
+  427  gedit constraint.sdc 
+  428  cd ../..
+  429  cd src
+  430  ls
+  431  mkdir comparator
+  432  cd comparator/
+  433  gedit comparator.v
+  434  cd ../..
+  435  cd ..
+  436  make clean_all DESIGN_CONFIG=./designs/sky130hd/comparator/config.mk
+  437  make DESIGN_CONFIG=./designs/sky130hd/comparator/config.mk
+  438  make DESIGN_CONFIG=./designs/sky130hd/comparator/config.mk gui_final
+  439  cd designs/
+  440  ls
+  441  cd sky130hd
+  442  ls
+  443  cd comparator/
+  444* 
+  445  gedit constraint.sdc 
+  446  cd ../../..
+  447  make clean_all DESIGN_CONFIG=./designs/sky130hd/comparator/config.mk
+  448  make DESIGN_CONFIG=./designs/sky130hd/comparator/config.mk
+  449  make DESIGN_CONFIG=./designs/sky130hd/comparator/config.mk gui_final
+  450  history 50
+faisal@faisal-virtual-machine:
